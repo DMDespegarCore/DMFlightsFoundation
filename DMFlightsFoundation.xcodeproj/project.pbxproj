@@ -16,6 +16,8 @@
 		C320FDF01B408D95000569CE /* DMFlightsMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C320FDEF1B408D95000569CE /* DMFlightsMain.storyboard */; };
 		C320FDF41B408E0D000569CE /* DMFlightsResultsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C320FDF21B408E0D000569CE /* DMFlightsResultsViewController.h */; };
 		C320FDF51B408E0D000569CE /* DMFlightsResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C320FDF31B408E0D000569CE /* DMFlightsResultsViewController.m */; };
+		F093C66A1B4C4B6D003769D6 /* DMInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = F093C6681B4C4B6D003769D6 /* DMInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F093C66B1B4C4B6D003769D6 /* DMInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = F093C6691B4C4B6D003769D6 /* DMInfo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +43,8 @@
 		C320FDEF1B408D95000569CE /* DMFlightsMain.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DMFlightsMain.storyboard; sourceTree = "<group>"; };
 		C320FDF21B408E0D000569CE /* DMFlightsResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMFlightsResultsViewController.h; sourceTree = "<group>"; };
 		C320FDF31B408E0D000569CE /* DMFlightsResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMFlightsResultsViewController.m; sourceTree = "<group>"; };
+		F093C6681B4C4B6D003769D6 /* DMInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMInfo.h; sourceTree = "<group>"; };
+		F093C6691B4C4B6D003769D6 /* DMInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMInfo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +145,8 @@
 			children = (
 				C320FDF21B408E0D000569CE /* DMFlightsResultsViewController.h */,
 				C320FDF31B408E0D000569CE /* DMFlightsResultsViewController.m */,
+				F093C6681B4C4B6D003769D6 /* DMInfo.h */,
+				F093C6691B4C4B6D003769D6 /* DMInfo.m */,
 			);
 			name = Results;
 			sourceTree = "<group>";
@@ -155,6 +161,7 @@
 				C320FDED1B408D32000569CE /* DMFlightsSearchViewController.h in Headers */,
 				C320FDF41B408E0D000569CE /* DMFlightsResultsViewController.h in Headers */,
 				C320FD9C1B408C8A000569CE /* DMFlightsFoundation.h in Headers */,
+				F093C66A1B4C4B6D003769D6 /* DMInfo.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +264,7 @@
 			files = (
 				C320FDF51B408E0D000569CE /* DMFlightsResultsViewController.m in Sources */,
 				C320FDEE1B408D32000569CE /* DMFlightsSearchViewController.m in Sources */,
+				F093C66B1B4C4B6D003769D6 /* DMInfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
