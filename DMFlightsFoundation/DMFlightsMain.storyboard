@@ -56,17 +56,29 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ppp-Lp-Am7">
+                                <rect key="frame" x="111" y="11" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="d0r-bm-1Gg"/>
+                                    <constraint firstAttribute="height" constant="40" id="zkg-UU-A18"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="BGD-zI-gkq" firstAttribute="leading" secondItem="4qd-kh-NRG" secondAttribute="leadingMargin" id="3T5-KP-zyb"/>
+                            <constraint firstItem="Ppp-Lp-Am7" firstAttribute="top" secondItem="THU-kd-hlM" secondAttribute="bottom" constant="-9" id="JOQ-i5-d4W"/>
                             <constraint firstItem="BGD-zI-gkq" firstAttribute="top" secondItem="THU-kd-hlM" secondAttribute="bottom" id="Mvr-zg-jgU"/>
+                            <constraint firstItem="Ppp-Lp-Am7" firstAttribute="leading" secondItem="BGD-zI-gkq" secondAttribute="trailing" constant="8" id="m0J-LU-k71"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="imageView" destination="Ppp-Lp-Am7" id="PPC-Aw-6Hg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9n4-gP-9V9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="996" y="366"/>
+            <point key="canvasLocation" x="995" y="375"/>
         </scene>
     </scenes>
 </document>

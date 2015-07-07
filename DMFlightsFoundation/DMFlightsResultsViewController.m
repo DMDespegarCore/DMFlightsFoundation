@@ -9,9 +9,14 @@
 #import "DMFlightsResultsViewController.h"
 
 @interface DMFlightsResultsViewController ()
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
 
 @end
 
 @implementation DMFlightsResultsViewController
 
+-(void)viewDidLoad {
+    [super viewDidLoad];
+    self.imageView.image = [UIImage imageNamed:@"check" inBundle:[NSBundle bundleForClass:[self class]] compatibleWithTraitCollection:nil];
+}
 @end
