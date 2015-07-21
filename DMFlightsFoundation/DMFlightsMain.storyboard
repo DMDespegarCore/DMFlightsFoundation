@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="23B-Cf-dMZ">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="23B-Cf-dMZ">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -8,7 +8,7 @@
         <!--Búsqueda-->
         <scene sceneID="PfF-ZX-zxR">
             <objects>
-                <viewController title="Búsqueda" id="23B-Cf-dMZ" customClass="DMFlightsSearchViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DMFlightsSearchViewController" title="Búsqueda" id="23B-Cf-dMZ" customClass="DMFlightsSearchViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="c1n-ka-76q"/>
                         <viewControllerLayoutGuide type="bottom" id="LsS-N2-kDv"/>
@@ -41,7 +41,7 @@
         <!--Resultados-->
         <scene sceneID="aFT-VX-bWc">
             <objects>
-                <viewController title="Resultados" id="MFH-0S-0Jf" customClass="DMFlightsResultsViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DMFlightsResultsViewController" title="Resultados" id="MFH-0S-0Jf" customClass="DMFlightsResultsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="THU-kd-hlM"/>
                         <viewControllerLayoutGuide type="bottom" id="NJQ-9p-pEq"/>
