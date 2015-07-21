@@ -14,4 +14,10 @@
 
 @implementation DMFlightsSearchViewController
 
+- (void)configureWithInfo:(NSDictionary *)info
+{
+    NSLog(@"configureWithInfo -- DMFlightsSearchViewController %@", info);
+}
+
+
 @end

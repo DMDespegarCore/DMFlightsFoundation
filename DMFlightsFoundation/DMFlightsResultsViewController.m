@@ -19,4 +19,11 @@
     [super viewDidLoad];
     self.imageView.image = [UIImage imageNamed:@"check" inBundle:[NSBundle bundleForClass:[self class]] compatibleWithTraitCollection:nil];
 }
+
+- (void)configureWithInfo:(NSDictionary *)info
+{
+    NSLog(@"configureWithInfo -- DMFlightsResultsViewController %@", info);
+}
+
+
 @end

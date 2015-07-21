@@ -7,7 +7,8 @@
 //
 
 #import <DMViewFoundation/DMViewFoundation.h>
+#import <DMCoreFoundation/DMCoreFoundation.h>
 
-@interface DMFlightsSearchViewController : DMViewController
+@interface DMFlightsSearchViewController : DMViewController <DMLandingEnabledProtocol>
 
 @end
