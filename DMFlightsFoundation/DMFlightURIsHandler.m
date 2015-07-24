@@ -13,7 +13,7 @@
 
 - (NSArray *)uris {
     // Por ahora 1 solo
-    return @[ @"despe://xSelling/Flight"];
+    return @[ @"despe://xSelling/flight"];
     
 }
 
