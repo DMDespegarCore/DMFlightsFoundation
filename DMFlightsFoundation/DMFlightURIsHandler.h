@@ -9,6 +9,8 @@
 #import <Foundation/Foundation.h>
 #import <DMCoreFoundation/DMCoreFoundation.h>
 
+extern NSString *const DMCrossSellToFlightURI;
+
 @interface DMFlightURIsHandler  : NSObject <DMURIHandlerProtocol>
 
 

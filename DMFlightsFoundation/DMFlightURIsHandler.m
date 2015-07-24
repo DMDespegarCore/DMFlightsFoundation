@@ -8,12 +8,13 @@
 
 #import "DMFlightURIsHandler.h"
 
+NSString *const DMCrossSellToFlightURI = @"despe://xSelling/flight";
 
 @implementation DMFlightURIsHandler
 
 - (NSArray *)uris {
     // Por ahora 1 solo
-    return @[ @"despe://xSelling/flight"];
+    return @[ DMCrossSellToFlightURI ];
     
 }
 
