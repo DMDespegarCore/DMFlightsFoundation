@@ -63,6 +63,15 @@
                                     <constraint firstAttribute="height" constant="40" id="zkg-UU-A18"/>
                                 </constraints>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mJL-aa-p5B">
+                                <rect key="frame" x="217" y="562" width="155" height="30"/>
+                                <state key="normal" title="Ver Hoteles en destino">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="boughtFlight:" destination="MFH-0S-0Jf" eventType="touchUpInside" id="pim-DI-ZKN"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>

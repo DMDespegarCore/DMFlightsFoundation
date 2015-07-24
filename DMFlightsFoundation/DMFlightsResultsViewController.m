@@ -7,6 +7,7 @@
 //
 
 #import "DMFlightsResultsViewController.h"
+#import "DMFlightSellingProvider.h"
 
 @interface DMFlightsResultsViewController ()
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
@@ -25,5 +26,22 @@
     NSLog(@"configureWithInfo -- DMFlightsResultsViewController %@", info);
 }
 
+- (IBAction)boughtFlight:(id)sender {
+    id<UIApplicationDelegate, DMFlightSellingProvider> myDelegate = (id<UIApplicationDelegate, DMFlightSellingProvider>)[[UIApplication sharedApplication] delegate];
+    
+    
+    if ([myDelegate conformsToProtocol:@protocol(DMFlightSellingProvider)]) {
+        NSDictionary *params =  @{
+                                  @"to" : @"bahamas",
+                                  @"from" : @"arg",
+                                  };
+        
+        // TODO Chequear por protocol de xselling.
+        if ([myDelegate.xSelling conformsToProtocol:@protocol(DMFlightXSellingProtocol) ]) {
+            [myDelegate.xSelling boughtFlight:params];
+        }
+    }
+
+}
 
 @end

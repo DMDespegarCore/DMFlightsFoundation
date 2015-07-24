@@ -19,3 +19,6 @@ FOUNDATION_EXPORT const unsigned char DMFlightsFoundationVersionString[];
 #import <DMFlightsFoundation/DMFlightsSearchViewController.h>
 #import <DMFlightsFoundation/DMFlightsResultsViewController.h>
 #import <DMFlightsFoundation/DMInfo.h>
+#import <DMFlightsFoundation/DMFlightURIsHandler.h>
+#import <DMFlightsFoundation/DMFlightXSellingProtocol.h>
+#import <DMFlightsFoundation/DMFlightSellingProvider.h>
